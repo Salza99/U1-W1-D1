@@ -7,14 +7,14 @@ public class ThirdExercise {
         System.out.println(pariDispari(6));
         System.out.println(areaTriangolo(37, 13, 40));
         Scanner input = new Scanner(System.in);
-       // System.out.println("inserisci la lunghezza della base di un rettangolo in cm e premi invio");
-       // double baseRettangolo = input.nextDouble();
-       // System.out.println("Inserisci la lunghezza della sua altezza");
-       // double altezzaRettangolo = input.nextDouble();
-       // System.out.println("il perimetro del tuo rettangolo è di " + perimetroRettangolo(baseRettangolo, altezzaRettangolo ) + " cm" );
-       // System.out.println("ora inserisci un numero per verificare se è pari(0) o dispari(1)");
-       // int pariODispari = input.nextInt();
-       // System.out.println(pariDispari(pariODispari));
+        System.out.println("inserisci la lunghezza della base di un rettangolo in cm e premi invio");
+        double baseRettangolo = input.nextDouble();
+        System.out.println("Inserisci la lunghezza della sua altezza");
+        double altezzaRettangolo = input.nextDouble();
+        System.out.println("il perimetro del tuo rettangolo è di " + perimetroRettangolo(baseRettangolo, altezzaRettangolo ) + " cm" );
+        System.out.println("ora inserisci un numero per verificare se è pari(0) o dispari(1)");
+        int pariODispari = input.nextInt();
+        System.out.println(pariDispari(pariODispari));
         System.out.println("inserisci la lunghezza di un lato di un triangolo espressa in cm");
         double primoLato = input.nextDouble();
         System.out.println("ora il secondo lato");
@@ -25,7 +25,7 @@ public class ThirdExercise {
 
 
         input.close();
-        
+
 
     }
     public static double perimetroRettangolo(double n1, double n2) {
