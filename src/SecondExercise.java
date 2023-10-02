@@ -14,6 +14,7 @@ public class SecondExercise {
         String thirdLine = input.nextLine();
         System.out.println("stringhe in ordine: " + firstLine + " " + secondLine + " " + thirdLine);
         System.out.println("stringhe in ordine inverso: " + thirdLine + " " + secondLine + " " + firstLine);
+        input.close();
     }
 
 
